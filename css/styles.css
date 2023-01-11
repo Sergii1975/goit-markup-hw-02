@@ -1,4 +1,75 @@
 body {
+    font-family: Roboto;
     background-color: #E5E5E5;
-    color: black;
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+} 
+.page-header {
+    background-color: #E7E9FC;
+    color: #2e2f42;   
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.logo-web {
+    color: #4D5AE5;
+    font-size: 18px;
+    font-family: Raleway;
+}
+.logo-studio {
+    color: #2e2f42;
+    font-size: 18px;
+    font-family: Raleway;
+}
+.site-nav > a {
+    color: #2e2f42;
+    font-family: Roboto;
+    font-weight: 500;
+}
+.address {
+    color: #434455;
+    font-style: normal;
+}
+.hero-title {
+    color: #FFFFFF;
+    font-size: 56px;
+    font-family: Roboto;
+    line-height: 60px;
+    font-weight: 700;
+}
+.hero {
+    background-color: #2e2f42;
+}
+.hero .button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.section-title {
+    color: #2E2F42;
+}
+.section-team {
+    background-color: #F4F4FD;;
+}
+h3 {
+color: #2E2F42;
+font-size: 20px;
+font-family: Roboto;
+font-weight: 500;
+}    
+.logo-footer {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: Raleway;
+}
+.footer {
+    background-color: #2e2f42;
+    color: #FFFFFF;   
+}
+.team > li {
+    background-color: #FFFFFF;
 }
