@@ -18,114 +18,96 @@ body {
     background-color: var(--background-color);
     color: var(--primary-text-color);
     font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.02em;
+    line-height: 1.5;
 } 
 .page-header {
     background-color: var(--background-color);
     color: var(--title-text-color);   
 }
-.list-images {
-    list-style: none;
-}
 .list {
     list-style: none;
 }
-.team {
-    list-style: none;
-}
-.link {
-    font-family: inherit;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
+.nav-header .link {
+    font-weight: 500;
+    line-height: 1.5;
     text-decoration: none;
     color: var(--title-text-color);
+}
+.link {
+    text-decoration: none;
 }
 .link:hover,
 .link:focus {
     color: var(--pressed-state-color);
 }
-.site-nav-header .link.current {
+.nav-header .link.current {
     color: var(--primary-brand-color);
 }
-.logo {
+.logo.link {
     color: var(--primary-brand-color);
     font-size: 18px;
     font-family: Raleway;
     font-weight: 800;
-    text-decoration: none;
+    line-height: 1.3;
 }
 .logo-dark {
     color: var(--title-text-color);
     font-size: 18px;
-    font-weight: 800;
     font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.3;
+    
 }
-.site-nav-header {
+.nav-header {
     color: var(--title-text-color);
     font-family: inherit;
     font-weight: 500;
     list-style: none;
 }
-.list-address {
-    font-style: normal;
-    list-style: none;
-}
 .mail {
 font-family: inherit;
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     text-decoration: none;
     color: var(--primary-text-color);
 }
 .phone-link {
     font-family: inherit;
         font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         text-decoration: none;
     color: var(--primary-text-color);
 }
 .hero-title {
     color: var(--second-text-color);
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02em;
 }
 .hero {
     background-color: var(--title-text-color);
 }
-.hero .button {
+.btn.hero {
     background-color: var(--primary-brand-color);
     color: var(--second-text-color);
-    font-family: inherit;
+    font-family: Roboto;
     font-size: 16px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     letter-spacing: 0.04em;
-}
-.hero .button:hover, 
-.hero .button:focus {   
-background-color: var(--pressed-state-color);
-}
-.pointer {
     cursor: pointer;
+    border: none;
+}
+.btn.hero:hover, 
+.btn.hero:focus {   
+background-color: var(--pressed-state-color);
 }
 .section-title {
     color: var(--title-text-color);
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
 }
 .section-team {
     background-color: var(--light-color);
@@ -136,20 +118,21 @@ background-color: var(--pressed-state-color);
 .worker {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+    line-height: 1.2;
     color: var(--title-text-color);
 }
 .list-title {
 color: var(--title-text-color);
 font-size: 20px;
-font-family: Roboto;
 font-weight: 500;
+line-height: 1.2;
 }    
 .logo-light {
     color: var(--second-text-color);
     font-size: 18px;
     font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.3;
 }
 .footer {
     background-color: var(--title-text-color);
@@ -165,21 +148,20 @@ font-weight: 500;
     font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     border: 1px solid var(--accent-color);
     border-radius: 4px;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
     background-color: var(--pressed-state-color);
     color: var(--second-text-color);
-    font-weight: 500;
 }
 .apps {
 font-weight: 500;
 font-size: 20px;
-line-height: 24px;
-letter-spacing: 0.02em;
+line-height: 1.2;
 color: var(--title-text-color);
 }
