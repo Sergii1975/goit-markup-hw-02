@@ -138,9 +138,6 @@ line-height: 1.2;
     color: var(--accent-color);
 }
 /* portfolio */
-.btn-list {
-    list-style: none;
-}
 .btn {    
     background-color: var(--accent-color);
     color: var(--primary-brand-color);
